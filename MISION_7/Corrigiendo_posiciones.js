@@ -4,9 +4,15 @@ let arr = ["Primero", "Segundo", "Tercero", "Cuarto", "Soy el último elemento"]
 
 let nuevoArreglo = ["Quinto", "Sexto"];
 
-arr.splice(4, 0, nuevoArreglo);
+arr.splice(4, 0, nuevoArreglo [0]);
+arr.splice(5, 0, nuevoArreglo [1]);
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i])
+}
 
-console.log("RESULTADO ESPERADO: " + arr);
+
+
+
 
 //*EJERCICIO
 //Corrigiendo posiciones Objetivo: Escribe un programa que inserte cada uno de los
