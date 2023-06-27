@@ -1,0 +1,23 @@
+.Título {
+    color: blueviolet;
+
+}
+
+#Párrafo_1 {
+    color:darkgray;
+
+}
+
+#Lista_1 {
+    color:aquamarine;
+
+}
+
+.Imagen {
+    width: 500px;
+
+}
+
+.Contenedor{
+    background-color: rgb(178, 178, 178);
+}
