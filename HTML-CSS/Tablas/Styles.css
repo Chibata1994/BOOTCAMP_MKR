@@ -1,0 +1,26 @@
+Table, tr, th, td{
+   color:aliceblue;
+   border: 2px solid rgb(58, 108, 201);
+   border-collapse: collapse;
+
+}
+
+table {
+    background-color: cornflowerblue;
+}
+
+th{
+    width: 100px;
+}
+
+tr{
+    height: 10px;
+}
+td{
+    text-align: center;
+}
+
+.Hora{
+    font-weight: bold;
+    color:indigo;
+}

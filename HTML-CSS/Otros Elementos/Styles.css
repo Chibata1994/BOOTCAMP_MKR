@@ -1,0 +1,13 @@
+.MiSpan {
+    color:blue
+}
+
+.Contenedor{
+    color:cornflowerblue;
+    border-style: solid;
+    border: 10px ,cornflowerblue;
+    border-radius: 50px;
+    padding:30px;
+    margin: 20px;
+    background-color:indigo;
+}
