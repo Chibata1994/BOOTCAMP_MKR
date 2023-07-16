@@ -1,0 +1,45 @@
+.Container{
+    width: 450px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 10px ;
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;
+
+}
+
+.Item1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.Item2{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+.Item3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.Item4{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.Item5{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+.Item6{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+}

@@ -1,0 +1,17 @@
+p{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.Caja{
+    width: 500px;
+    height: 1000px;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 50px;
+    background-image: url("Queen.jpeg");
+    
+}

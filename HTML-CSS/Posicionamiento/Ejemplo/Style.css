@@ -1,0 +1,25 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    position:relative;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position:fixed;
+    top: 100px;
+    left:  100px;
+}
+.box-other{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position:fixed;
+    top: 200px;
+    left:  100px;
+}

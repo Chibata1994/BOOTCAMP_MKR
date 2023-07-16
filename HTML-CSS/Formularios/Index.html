@@ -14,6 +14,10 @@
         <input type="text" id ="name" name="nombre"/>
         <label for="lastname" >Apellido: 
         <input type="text" id ="lastname" name="apellido"/>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="correo" placeholder="user@email.com" required/>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="contraseña" placeholder="Ingresa tu contraseña ***"/>
         <label for="">
             <textarea name="Comentarios" id="comment" cols="30" rows="10"
                 placeholder= "Escribe un comentario..."
@@ -28,7 +32,18 @@
                     <option value="blue">Azul</option>
                     <option value="blue">Rojo</option>
             </select>
-
+            <label for="terms">Términos y condiciones</label>
+        <input type="checkbox" id="terms" name="terms" />
+        
+        <fieldset>
+            <label for="radio-1">Radio 1</label>
+            <input type="radio" name="radio-options" id="radio-1" checked>
+            <label for="radio-2">Radio 2</label>
+            <input type="radio" name="radio-options" id="radio-2">
+            <label for="radio-3">Radio 3</label>
+            <input type="radio" name="radio-options-3" id="radio-3">
+        </fieldset>
+        <button type="submit"> Enviar Forms</button>
             </label>
     </form>
 

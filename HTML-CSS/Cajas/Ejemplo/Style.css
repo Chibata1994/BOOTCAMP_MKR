@@ -1,0 +1,14 @@
+.Parrafo{
+    width: 200px;
+    height: 60px;
+
+    padding: 10px 20px 20px 20px;
+
+    border: 5px solid cornflowerblue;
+    border-top: 8px dotted blueviolet;
+    border-right: 2px dashed violet;
+    border-bottom: 8px dotted pink;
+    border-left: 2px dashed black;
+
+    margin: 50px;
+}

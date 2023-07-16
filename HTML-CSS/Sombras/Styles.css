@@ -1,0 +1,13 @@
+.Box{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.Texto{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: blue;
+    text-shadow: 5px 5px 10px blueviolet;
+}

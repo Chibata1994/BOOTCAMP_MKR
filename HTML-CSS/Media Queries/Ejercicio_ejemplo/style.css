@@ -1,0 +1,35 @@
+.Box{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/*Tablet*/
+
+@media(min-width:768px){
+    .Box{
+        width: 150px;
+        height: 150px;
+        background-color: coral;
+    }
+}
+
+/* PCS */
+
+@media (min-width: 992px){
+    .Box{
+        width:200px;
+        height: 200px;
+        background-color: blue;
+    }
+}
+
+/*TVS*/
+@media (min-width: 1200px){
+    .Box{
+        width: 300px;
+        height: 300px;
+        background-color: darkmagenta;
+    }
+}
